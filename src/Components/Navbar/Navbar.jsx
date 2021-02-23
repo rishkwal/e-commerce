@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Typography variant='h6' className={classes.title} color='inherit'>
                     <img src={logo} alt ='RishKart.js' height ='25px' className={classes.image} />
                     RishKart
-                </Typography>
+                </Typography> 
                 <div className = {classes.grow} />
                 <div className={classes.button}>
                     <IconButton aria-label='Show Cart Items' color = 'inherit'>

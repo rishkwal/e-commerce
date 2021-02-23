@@ -11,7 +11,7 @@ const products = [
 const Products = () => {
     const classes = useStyles();
 
-    return(
+    return( 
         <main className={classes.content}>
         <div className={classes.toolbar} />
         <Grid container justify ='center' spacing={4}>
