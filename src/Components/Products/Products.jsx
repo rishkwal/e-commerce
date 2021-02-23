@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import Product from './Product/Product'
+import useStyles from './styles';
 
 const products = [
     {id: 1, name:'Shoes', description: 'Running Shoes', price:'$15', image: 'https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef38fcbf997dd433b43d714/-473Wx593H-461205998-black-MODEL.jpg' },
