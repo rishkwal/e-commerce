@@ -35,7 +35,7 @@ function App() {
     
     return (
         <div>
-            <Navbar toalItems = {cart.total_items}/>
+            <Navbar totalItems = {cart.total_items}/>
             <Products products={products} onAddToCart={handleAddToCart} />
         </div>
     )
