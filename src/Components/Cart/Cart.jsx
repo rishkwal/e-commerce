@@ -5,14 +5,15 @@ import useStyles from './styles';
 
 const Cart = ({ cart }) => {
 
-    const isEmpty = !cart.line_items.length ;
+    const isEmpty = !cart.total_items ;
     const classes = useStyles();
 
-    const EmptyCart =() => {
+    const EmptyCart =() => {return(
         <Typography variant='subtitle1'>You have no items in your shopping cart, start adding some!</Typography>
+    )
     };
 
-    const FilledCart = () => {
+    const FilledCart = () => {return(
         <>
             <Grid container spacing={3}>
                 {cart.line_items.map((item) => (
@@ -30,6 +31,7 @@ const Cart = ({ cart }) => {
                 </div>
             </Grid>
         </>
+    )
     }
 
     return (
